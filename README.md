@@ -2,7 +2,7 @@
 
 Um cronômetro simples feito com HTML, CSS e JavaScript. O sistema permite iniciar, pausar e zerar o tempo com apenas um clique. Ideal para treinar conceitos básicos de manipulação do DOM e lógica com intervalos em JS.
 
-Deploy do projeto: ...
+Deploy do projeto: https://liviakobayashii.github.io/timer
 
 ## Funcionalidades
 
