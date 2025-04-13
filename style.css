@@ -1,38 +1,49 @@
-body{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' ;
-    background-color: rgb(143, 16, 248);
-    padding: 16px;
-}
-#container{
-    background-color: aliceblue;
-    margin: auto;
-    padding: 16px;
-    max-width: 50%;
-    border-radius: 5%;
-}
-h1, #relogio, #buttons{
-    text-align: center;
-}
-#relogio{
-    font-size: 3em;
-}
-button{
-    margin: 8px;
-    padding: 8px;
-    border-radius: 5px;
-    border: 1px solid black;
-}
-button:hover{
-    cursor: pointer;
-    transition: 0.2 easy;
-}
-.pausado{
-    color: red;
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode";
+  background-color: rgb(143, 16, 248);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw; /* Corrigido aqui */
+  height: 100vh;
+  margin: 0; /* Remover espaçamentos padrões */
 }
 
-footer{
-    color: white;
-    padding: 32px;
-    font-size: 0.8em;
-    text-align: center;
+#container {
+  background-color: aliceblue;
+  margin: auto;
+  max-width: 50%;
+  border-radius: 5px;
+  padding: 16px 32px;
+}
+h1,
+#relogio,
+#buttons {
+  text-align: center;
+}
+#relogio {
+  font-size: 3em;
+}
+button {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+button:hover {
+  cursor: pointer;
+  transition: 0.2 easy;
+}
+.pausado {
+  color: red;
+}
+
+footer {
+  color: white;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0 0 32px;
 }
